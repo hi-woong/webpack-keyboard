@@ -36,14 +36,12 @@ export class Keyboard {
 
   #onKeyDown(event) {
     this.#keyboardEl
-    .querySelector(`[data-code=${event.code}]`)
-    ?.classList.add("active");
-  this.#inputGroupEl.classList.toggle(
-    "error",
-    /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/.test(event.key)
-  );
-
-   
+      .querySelector(`[data-code=${event.code}]`)
+      ?.classList.add("active");
+    this.#inputGroupEl.classList.toggle(
+      "error",
+      /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/.test(event.key)
+    );
   }
 
   #onKeyUp(event) {
