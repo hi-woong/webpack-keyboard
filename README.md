@@ -1,6 +1,8 @@
 # webpack-keyboard
 virtual-keyboard
-### 클론코딩 강의 (개인공부)
+
+![image](https://user-images.githubusercontent.com/105634994/198006851-4369efec-14f7-4b55-8067-7ed33ceaa465.gif)
+### 클론코딩 강의 (개인공부 진행중)
 
 ## webpack 이용한 개발환경 구축
 module bundler
